@@ -61,4 +61,4 @@ async def on_message(message):
         EmbedPu.set_thumbnail(url='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bitcoin_logo.svg/450px-Bitcoin_logo.svg.png')
         await client.send_message(message.channel, embed=EmbedPu)
 
-client.run('NDgxNjMyODM3MTQyMDUyODc0.Dl5MFQ.cQ47ZZPMC_zEG6l5R1Aj-5HjjQw')
+client.run('TOKEN_DISCORD')
